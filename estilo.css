@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    scale: 100%;
+    background-image: url('Jax.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(29, 29, 31);
+    text-align: center;
+}
+
+ul {
+    margin-top: 0%;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+li {
+    display: inline;
+}
+
+div > a {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+a {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.nav {
+    background-color: aliceblue;
+    margin: 0px 50px 0px 50px;
+    margin-top: -16px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome {
+    margin-bottom: 100px;
+    display: inline;
+}
+
+.face1 {
+    text-align: center;
+}
+
+.face {
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid cadetblue;
+    padding: 0%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    margin: 0px 50px;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rodape {
+    text-align: center;   
+}
+
+#redes {
+    display: inline;
+    max-width: 35px;
+}
